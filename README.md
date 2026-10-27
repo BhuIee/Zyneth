@@ -5,8 +5,8 @@
   <img src="pfp.jpg" alt="BhuIe" width="110" height="110" style="border-radius: 50%;" />
 
   <h1>BhuIe</h1>
-  <p><strong>@BhuIe</strong> • Online • Building &amp; Gaming</p>
-  <p><em>PC Setup, Daily Drivers &amp; Configs</em></p>
+  <p><strong>@BhuIe</strong> • Online • Plugins &amp; Gaming</p>
+  <p><em>PC Setup, Daily Apps &amp; Configs</em></p>
 
   <p>
     <a href="https://bhuiee.github.io/Zyneth/"><img src="https://img.shields.io/badge/Website-bhuiee.github.io%2FZyneth-111111?style=for-the-badge&logo=github" alt="Website" /></a>
@@ -53,11 +53,11 @@
 
 | Application | Category | Notes |
 | :--- | :--- | :--- |
-| **Helium Browser** | `Daily Driver` | Ultralight, privacy-focused Chromium browser for fast daily browsing. |
-| **Pandora Launcher** | `Launcher` | Main launcher for Minecraft PvP, SMPs & Survival (Fabric, Zoomify, GammaUtils, EntityCulling, Zyneth Optimizer). |
-| **Medal.tv** | `Clips` | Instant background gameplay clipping for Minecraft PvP, Roblox, and GTA. |
+| **Helium Browser** | `Daily Driver` | Ultralight, privacy-focused for my daily browsing. |
+| **Pandora Launcher** | `Launcher` | Main launcher for Minecraft. |
+| **Medal.tv** | `Clips` | Gameplay clipping. |
 | **Discord & Spotify** | `Social` | Daily voice comms, SMP servers, and background playlists. |
-| **Roblox** | `Games` | 240Hz native fullscreen setup paired with low-latency NVIDIA settings. |
+| **Roblox** | `Games` | Just normal Roblox |
 | **Windows 11 Home (26H2)** | `System` | Build 26300 • Hardware-accelerated GPU scheduling enabled, Game Mode ON. |
 
 ### Config Snippets & Keybinds
@@ -84,7 +84,7 @@ Packs      : vanilla pvp 1.33.zip, Reaper's PVP Pack.zip, Fast Better Grass.zip
 ## `03 / MISC` — Other Things & Rotation
 
 - **Currently Playing:** Minecraft (PvP / SMPs / Survival), Roblox, GTA V & CS2
-- **Minecraft Packs:** `vanilla pvp 1.33` • `Reaper's PVP Pack` • `Fast Better Grass`
+- **Minecraft Packs:** `vanilla pvp 1.33` • `Reaper's PVP Pack` • `Vix`
 - **Client & Mods:** Pandora Launcher + Zyneth Optimizer *(Fabric with EntityCulling, GammaUtils, Zoomify, Iris, and Zyneth Optimizer)*
 
 ---
