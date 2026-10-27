@@ -39,7 +39,7 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
     },
     {
       label: "Roblox",
-      handle: "BhuIe",
+      handle: "Z_Zyneth",
       url: "https://www.roblox.com/users/11353392590/profile",
       icon: "roblox",
     },
@@ -51,7 +51,7 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
     },
     {
       label: "Discord",
-      handle: "BhuIe",
+      handle: ".bhuie",
       url: "https://discord.gg/6PwYjKv5fS",
       icon: "discord",
     },
@@ -94,19 +94,19 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
       {
         name: "Helium Browser",
         category: "Browser",
-        description: "Ultralight, privacy-focused Chromium browser for fast daily browsing.",
+        description: "Ultralight, privacy-focused for fast daily use.",
         tag: "Daily Driver",
       },
       {
         name: "Pandora Launcher",
         category: "Minecraft",
-        description: "Main launcher for Minecraft PvP, SMPs & Survival (Fabric, Zoomify, GammaUtils, EntityCulling, Zyneth Optimizer).",
+        description: "Main launcher for Minecraf.",
         tag: "Launcher",
       },
       {
         name: "Medal.tv",
         category: "Clipping",
-        description: "Instant background gameplay clipping for Minecraft PvP, Roblox, and GTA.",
+        description: "Gameplay clipping",
         tag: "Clips",
       },
       {
@@ -118,7 +118,7 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
       {
         name: "Roblox",
         category: "Gaming",
-        description: "240Hz native fullscreen setup paired with low-latency NVIDIA settings.",
+        description: "Self explanitory.",
         tag: "Games",
       },
       {
