@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setup, Software & Configs</title>
+  <meta name="description" content="Personal PC setup showcase, software stack, game settings, and social links." />
+
+  <!-- Sharp Minimalist Typography: Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Minimal Navigation -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="#" class="brand" id="nav-brand">vixual</a>
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#hardware">Specs</a>
+        <a href="#software">Software &amp; Configs</a>
+        <a href="#other">Notes</a>
+        <a href="#socials">Links</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle color theme" title="Switch Light / Dark mode">
+        <span class="theme-icon-light">☀</span>
+        <span class="theme-icon-dark">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- 1. ABOUT ME / HERO -->
+    <section class="hero-section" id="about">
+      <div class="hero-banner-wrap" id="hero-banner-wrap">
+        <img id="profile-banner" src="banner.png" alt="Profile banner" class="hero-banner" />
+      </div>
+      <div class="hero-top">
+        <div class="avatar-wrap">
+          <img id="profile-avatar" src="pfp.jpg" alt="Profile avatar" class="avatar" />
+        </div>
+        <div class="hero-meta">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span id="profile-status">Online</span>
+          </div>
+          <h1 id="profile-name">Loading...</h1>
+          <p class="handle-text">
+            <span id="profile-handle">@handle</span>
+            <span class="meta-sep">•</span>
+            <span id="profile-location">Location</span>
+          </p>
+        </div>
+      </div>
+
+      <p class="hero-tagline" id="profile-tagline"></p>
+      <p class="hero-bio" id="profile-bio"></p>
+
+      <!-- Quick Social Pills -->
+      <div class="hero-socials" id="hero-socials"></div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- 2. PC SPECS & HARDWARE OVERVIEW -->
+    <section class="section" id="hardware">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">01 / RIG &amp; PERIPHERALS</span>
+          <h2 class="section-title">PC Setup &amp; Gear</h2>
+        </div>
+        <p class="section-subtitle">Click any spec card to copy the exact model name.</p>
+      </div>
+
+      <div class="hardware-grid" id="hardware-grid"></div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- 3. SOFTWARE, APPS & CONFIGS / GAME SETTINGS -->
+    <section class="section" id="software">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">02 / WORKFLOW &amp; TUNING</span>
+          <h2 class="section-title">Software, Apps &amp; Configs</h2>
+        </div>
+        <p class="section-subtitle">Daily driver applications, peripheral tuning, and copyable configs.</p>
+      </div>
+
+      <!-- Sub-section A: Game & Peripheral Settings Bar -->
+      <div class="subsection">
+        <h3 class="subsection-title">Sensitivity &amp; Display Parameters</h3>
+        <div class="settings-strip" id="settings-strip"></div>
+      </div>
+
+      <!-- Sub-section B: Daily Driver Software & Apps -->
+      <div class="subsection">
+        <h3 class="subsection-title">Daily Software Stack</h3>
+        <div class="apps-grid" id="apps-grid"></div>
+      </div>
+
+      <!-- Sub-section C: Copyable Config Snippets -->
+      <div class="subsection">
+        <h3 class="subsection-title">Config Snippets &amp; Launch Options</h3>
+        <div class="snippets-list" id="snippets-list"></div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- 4. OTHER THINGS / ROTATION -->
+    <section class="section" id="other">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">03 / MISC</span>
+          <h2 class="section-title">Other Things &amp; Rotation</h2>
+        </div>
+        <p class="section-subtitle">Current games, desk dimensions, and upcoming changes.</p>
+      </div>
+
+      <div class="other-list" id="other-list"></div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- 5. SOCIAL LINKS & CONTACT -->
+    <section class="section" id="socials">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">04 / CONNECT</span>
+          <h2 class="section-title">Social Links &amp; Profiles</h2>
+        </div>
+        <p class="section-subtitle">Find me across the web or check out my repositories.</p>
+      </div>
+
+      <div class="socials-grid" id="socials-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span id="footer-copy">© 2026</span>
+      <span class="footer-note">Built for GitHub Pages • Powered by <code>config.js</code></span>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Gallery Photos -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" />
+      <div class="lightbox-meta">
+        <span class="lightbox-category" id="lightbox-category"></span>
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification for Copy Actions -->
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied to clipboard</div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
