@@ -11,7 +11,7 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
   profile: {
     name: "BhuIe",
     handle: "@BhuIe",
-    tagline: "PC Setup, Daily Drivers & Configs",
+    tagline: "PC Setup & Configs",
     bio: "Here you'll find my current PC build, desk showcase, daily software stack, and in-game settings.",
     status: "Online • Building & Gaming",
     location: "Earth",
