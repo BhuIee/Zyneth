@@ -13,7 +13,7 @@ const SITE_CONFIG = (window.SITE_CONFIG = {
     handle: "@BhuIe",
     tagline: "PC Setup & Configs",
     bio: "Here you'll find my current PC build, desk showcase, daily software stack, and in-game settings.",
-    status: "Online • Building & Gaming",
+    status: "Online • Plugins & Gaming",
     location: "Earth",
     // Profile picture & top banner image (stored right in this folder)
     avatar: "pfp.jpg",
